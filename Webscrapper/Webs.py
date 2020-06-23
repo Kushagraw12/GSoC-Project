@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 from pandas import DataFrame
 
-url = 'https://summerofcode.withgoogle.com/archive/2019/organizations/'
+url = 'https://summerofcode.withgoogle.com/organizations/'
 
 r = requests.get(url)
 
@@ -47,6 +47,6 @@ table = {'Org': OrgName, 'Technologies': techlist,
          'Slots': slots, 'Ideas Page': ideas, 'Contact': Contactlink}
 
 df = DataFrame(table)
-export_csv = df.to_csv(r'2019-orgs.csv')
+export_csv = df.to_csv(r'2020-orgs.csv')
 
 print(r'Done!')

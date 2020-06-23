@@ -15,7 +15,7 @@ Requirements:
 
 `pip install BeautifulSoup4`
 
-Requests
+3. Requests
 
 `pip install requests`
 

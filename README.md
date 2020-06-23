@@ -1,7 +1,8 @@
 # GSoC Project
 
-List of all the organizations that took part in GSoC in 2018: (2018-org.csv)[https://github.com/Kushagraw12/Webs/blob/master/2018-orgs.csv] <br>
-List of all the organizations that took part in GSoC in 2019: (2018-org.csv)[https://github.com/Kushagraw12/Webs/blob/master/2019-orgs.csv]
+List of all the organizations that took part in GSoC in 2018: [2018-org.csv](https://github.com/Kushagraw12/Webs/blob/master/2018-orgs.csv)
+<br>
+List of all the organizations that took part in GSoC in 2019: [2018-org.csv](https://github.com/Kushagraw12/Webs/blob/master/2019-orgs.csv)
 
 ## Web scrapper
 

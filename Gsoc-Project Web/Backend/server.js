@@ -8,13 +8,14 @@ const passport = require('passport');
 // Routes
 const user = require('./routes/user');
 const profile = require('./routes/profile');
+const filter = require('./routes/filterResult');
 
 // DB config
 const db = require('./config/keys').mongoURI;
 
 // body parser files
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended:true}));
+app.use(bodyParser.urlencoded({extended:false}));
 
 // connect to the database
 mongoose.connect(db,{useNewUrlParser: true,  useUnifiedTopology: true, useCreateIndex: true});
@@ -37,9 +38,11 @@ app.get('/', (req, res) => {
 // Use Routes
 app.use('/api/user', user);
 // app.use('/api/profile', profile);
+app.use('/api/filter', filter);
 
 const port = process.env.PORT || 5000;
 
 app.listen(port, () => {
     console.log(`Server running on ${port}`);
 })
+

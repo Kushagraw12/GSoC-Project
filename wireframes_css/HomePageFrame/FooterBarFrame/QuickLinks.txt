@@ -1,0 +1,21 @@
+/* Quick Links: */
+
+
+position: absolute;
+width: 152px;
+height: 36px;
+left: 36px;
+top: 23px;
+
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* or 117% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFCFC;

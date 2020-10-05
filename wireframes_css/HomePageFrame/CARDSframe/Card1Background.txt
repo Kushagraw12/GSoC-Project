@@ -1,0 +1,12 @@
+/* Card1Background */
+
+
+position: absolute;
+height: 531px;
+left: 0px;
+right: 158px;
+top: 0px;
+
+background: #FFFFFF;
+border: 1px solid #1BFF07;
+box-sizing: border-box;

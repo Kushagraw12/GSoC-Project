@@ -1,0 +1,24 @@
+/* Sign up */
+
+
+position: absolute;
+height: 18px;
+left: 1202px;
+right: 183px;
+top: calc(50% - 18px/2);
+
+/* Button - bold 14 (18, 0.3px) */
+
+font-family: Mulish;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.3px;
+
+color: #FFFFFF;

@@ -1,0 +1,23 @@
+/* ABOUT US */
+
+
+position: absolute;
+height: 94px;
+left: 0px;
+right: 301px;
+top: 58px;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: 800;
+font-size: 36px;
+line-height: 18px;
+/* or 50% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.3px;
+
+color: rgba(0, 0, 0, 0.81);
+

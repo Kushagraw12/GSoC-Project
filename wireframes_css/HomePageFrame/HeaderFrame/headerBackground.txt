@@ -1,0 +1,13 @@
+/* headerBackground */
+
+
+position: absolute;
+left: 0px;
+right: 0px;
+top: 0px;
+bottom: 0px;
+
+/* Accent / Default */
+
+background: #3C64B1;
+opacity: 0.06;

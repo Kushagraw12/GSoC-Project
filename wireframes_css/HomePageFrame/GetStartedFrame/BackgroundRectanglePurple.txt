@@ -1,0 +1,10 @@
+/* BackgroundRectanglePurple */
+
+
+position: absolute;
+width: 1216px;
+height: 152px;
+left: 77px;
+top: 0px;
+
+background: #6260C6;

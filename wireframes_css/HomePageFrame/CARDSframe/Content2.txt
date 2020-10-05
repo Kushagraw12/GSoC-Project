@@ -1,0 +1,21 @@
+/* Content2 */
+
+
+position: absolute;
+height: 445px;
+left: 262px;
+right: 58px;
+top: 702px;
+
+font-family: Chivo;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 299.36%;
+/* or 54px */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #000000;

@@ -1,0 +1,22 @@
+/* HaveAccText */
+
+
+position: absolute;
+width: 392px;
+height: 44px;
+left: 0px;
+top: 0px;
+
+font-family: Content;
+font-style: normal;
+font-weight: normal;
+font-size: 21px;
+line-height: 18px;
+/* or 86% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.3px;
+
+color: #000000;

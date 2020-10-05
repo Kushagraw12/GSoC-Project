@@ -1,0 +1,19 @@
+/* SignUpButton */
+
+
+/* Auto Layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 12px 0px 0px 18px;
+
+position: absolute;
+width: 78px;
+height: 30px;
+right: 171px;
+top: calc(50% - 30px/2);
+
+/* Accent / Default */
+
+background: #3C64B1;

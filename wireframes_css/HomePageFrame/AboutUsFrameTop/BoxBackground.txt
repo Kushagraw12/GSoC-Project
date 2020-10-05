@@ -1,0 +1,10 @@
+/* BoxBackground */
+
+
+position: absolute;
+height: 94px;
+left: 0px;
+right: 301px;
+top: 58px;
+
+background: #DB7F7F;

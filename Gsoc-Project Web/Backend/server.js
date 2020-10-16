@@ -15,13 +15,19 @@ const db = require('./config/keys').mongoURI;
 
 // body parser files
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended:false}));
+app.use(bodyParser.urlencoded({
+    extended: false
+}));
 
 // connect to the database
-mongoose.connect(db,{useNewUrlParser: true,  useUnifiedTopology: true, useCreateIndex: true});
-const connection=mongoose.connection;
+mongoose.connect(db, {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useCreateIndex: true
+});
+const connection = mongoose.connection;
 
-connection. once('open',function(){
+connection.once('open', function () {
     console.log("Mongoose database connected");
 });
 
@@ -45,4 +51,3 @@ const port = process.env.PORT || 5000;
 app.listen(port, () => {
     console.log(`Server running on ${port}`);
 })
-

@@ -1,9 +1,16 @@
 import React from 'react';
-import {Provider} from 'react-redux';
-import {BrowserRouter} from 'react-router-dom';
+import {
+    Provider
+} from 'react-redux';
+import {
+    BrowserRouter
+} from 'react-router-dom';
 import jwt_decode from 'jwt-decode';
 import setAuthToken from "./utils/setAuthToken";
-import {logoutUser, setCurrentUser} from "./actions/authActions";
+import {
+    logoutUser,
+    setCurrentUser
+} from "./actions/authActions";
 
 
 import './App.css';
@@ -24,7 +31,7 @@ if (localStorage.jwtToken) {
 
     // Check for expired token
     const curretTime = Date.now() / 1000;
-    if(decoded.exp < curretTime){
+    if (decoded.exp < curretTime) {
         // Logout user
         store.dispatch(logoutUser());
         // Todo: Clear current profile
@@ -36,12 +43,17 @@ if (localStorage.jwtToken) {
 
 class App extends React.Component {
     render() {
-        return (
-            <Provider store={store}>
-                <BrowserRouter>
-                    <HomeRoutes/>
-                </BrowserRouter>
-            </Provider>
+        return ( <
+            Provider store = {
+                store
+            } >
+            <
+            BrowserRouter >
+            <
+            HomeRoutes / >
+            <
+            /BrowserRouter> <
+            /Provider>
         );
     }
 }

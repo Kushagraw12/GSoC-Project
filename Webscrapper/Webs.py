@@ -2,6 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 from pandas import DataFrame
 
+# Url Goes here
+
 url = 'https://summerofcode.withgoogle.com/organizations/'
 
 r = requests.get(url)
@@ -42,9 +44,12 @@ for org_url in link_list:
     # idea = ideas[0].select_one('md-button')['href']
     ideas.append(idea)
 
+# table
 
 table = {'Org': OrgName, 'Technologies': techlist,
          'Slots': slots, 'Ideas Page': ideas, 'Contact': Contactlink}
+
+# csv export
 
 df = DataFrame(table)
 export_csv = df.to_csv(r'2020-orgs.csv')

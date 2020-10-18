@@ -1,0 +1,24 @@
+/* GSoCGUIDEtext */
+
+
+position: absolute;
+height: 40px;
+left: 211px;
+right: 1070px;
+top: calc(50% - 40px/2 + 4px);
+
+font-family: Lato;
+font-style: normal;
+font-weight: 800;
+font-size: 24px;
+line-height: 202px;
+/* or 842% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.2px;
+text-transform: uppercase;
+
+/* Accent / Default */
+
+color: #3C64B1;

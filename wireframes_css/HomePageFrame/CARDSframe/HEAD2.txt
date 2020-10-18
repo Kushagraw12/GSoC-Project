@@ -1,0 +1,22 @@
+/* HEAD2 */
+
+
+position: absolute;
+height: 85.78px;
+left: 379.85px;
+right: 174.56px;
+top: 616px;
+
+font-family: Mulish;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 18px;
+/* or 75% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.3px;
+
+color: #000000;

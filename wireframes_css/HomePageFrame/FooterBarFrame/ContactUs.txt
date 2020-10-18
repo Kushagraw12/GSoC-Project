@@ -1,0 +1,21 @@
+/* Contact us */
+
+
+position: absolute;
+width: 345px;
+height: 24px;
+left: 608px;
+top: 29px;
+
+font-family: Reem Kufi;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+/* or 117% */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;

@@ -1,0 +1,10 @@
+/* CreateAccButtonBackground */
+
+
+position: absolute;
+width: 312px;
+height: 64px;
+left: 673px;
+top: 47px;
+
+background: #FE985F;

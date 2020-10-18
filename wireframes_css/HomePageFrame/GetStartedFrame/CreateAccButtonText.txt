@@ -1,0 +1,22 @@
+/* CreateAccButtonText */
+
+
+position: absolute;
+width: 312px;
+height: 63.17px;
+left: 673px;
+top: 47.83px;
+
+font-family: Chonburi;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 18px;
+/* or 100% */
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.3px;
+
+color: #122911;

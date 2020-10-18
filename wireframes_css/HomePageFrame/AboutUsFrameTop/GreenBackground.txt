@@ -1,0 +1,10 @@
+/* GreenBackground */
+
+
+position: absolute;
+height: 251px;
+left: 35px;
+right: 0px;
+top: 0px;
+
+background: #4AE1BD;

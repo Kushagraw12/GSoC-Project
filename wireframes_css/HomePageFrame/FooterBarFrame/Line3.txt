@@ -1,0 +1,11 @@
+/* Line 3 */
+
+
+position: absolute;
+width: 32px;
+height: 0px;
+left: 597px;
+top: 27px;
+
+border: 3px solid #FFFEFE;
+transform: rotate(90deg);

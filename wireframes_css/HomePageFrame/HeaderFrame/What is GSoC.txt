@@ -1,0 +1,25 @@
+/* What is GSoC */
+
+
+position: absolute;
+width: 95px;
+height: 18px;
+left: calc(50% - 95px/2 - 47.5px);
+top: calc(50% - 18px/2);
+
+/* Subtitle 2 - semibold 14 (18, 0.2px) */
+
+font-family: Mulish;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.2px;
+
+/* Light / Black */
+
+color: #373F41;

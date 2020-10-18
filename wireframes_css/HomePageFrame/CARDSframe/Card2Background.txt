@@ -1,0 +1,12 @@
+/* Card2Background */
+
+
+position: absolute;
+height: 522.42px;
+left: 188px;
+right: 0px;
+top: 616px;
+
+background: #FFFFFF;
+border: 1px solid #1BFF07;
+box-sizing: border-box;

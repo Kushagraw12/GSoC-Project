@@ -1,0 +1,10 @@
+/* BackgroundRectangle */
+
+
+position: absolute;
+width: 365px;
+height: 61.31px;
+left: 0px;
+top: 46.69px;
+
+background: #3C3939;

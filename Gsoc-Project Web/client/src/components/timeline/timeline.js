@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {withRouter, Link} from 'react-router-dom';
 import {connect} from 'react-redux';
-import {logoutUser} from '../actions/authActions';
+import {logoutUser} from '../../actions/authActions';
 import { Button } from 'react-bootstrap';
 import {Chrono} from 'react-chrono'
 import './timeline.css';

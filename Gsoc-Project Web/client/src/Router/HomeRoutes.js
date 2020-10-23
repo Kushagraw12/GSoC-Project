@@ -4,7 +4,7 @@ import {Switch, Route} from 'react-router-dom';
 import HomePage from '../components/home';
 import Login from '../components/auth/Login';
 import Register from "../components/auth/Register";
-import Timeline from "../components/timeline";
+import Timeline from "../components/timeline/timeline";
 import Firebase from "../components/Firebase/login";
 
 const Routes = (props) => {

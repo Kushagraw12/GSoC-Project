@@ -1,0 +1,15 @@
+* {
+    text-align: center;
+    align-items: center;
+}
+
+.wog,
+.og,
+.reg {
+    margin: 20px;
+}
+
+.reg {
+    color: #fff;
+    font-size: 20px;
+}

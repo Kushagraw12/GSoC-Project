@@ -12,7 +12,7 @@ h1 {
 }
 .Singup {
     margin: auto;
-    box-shadow: 15px 20px 30px #e8e8e8;
+    
     background-color: white;
     border-start-end-radius: 10px;
     border-end-end-radius: 10px;
@@ -22,7 +22,7 @@ h1 {
 }
 .Login {
     margin: auto;
-    box-shadow: -15px 20px 30px #e8e8e8;
+    
     border-start-start-radius: 10px;
     border-end-start-radius: 10px;
     min-height: 560px !important;

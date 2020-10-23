@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
-import {withRouter} from 'react-router-dom';
+import {withRouter, Link} from 'react-router-dom';
 import {connect} from 'react-redux';
 import {logoutUser} from '../actions/authActions';
+import { Button } from 'react-bootstrap';
 import {Chrono} from 'react-chrono'
 import './timeline.css';
 
@@ -95,7 +96,11 @@ console.log(items.contentTitle);
 class Timeline extends Component {
     render() {
         return (
+            <>
             <External/>
+
+        <Link to='/'><Button className="back">Go Back to Home Page</Button></Link>
+        </>
         );
     }
 }

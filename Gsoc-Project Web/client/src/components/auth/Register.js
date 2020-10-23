@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import {withRouter} from 'react-router-dom';
+import {withRouter, Link } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
 import classNames from 'classnames';
 import './register.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -61,7 +62,7 @@ class Register extends Component {
                     <div className="overlay-panel overlay-left">
                         <h1>Welcome Back!</h1>
                         <p>To keep connected with us please login with your personal info</p>
-                        <button style={{borderRadius:8}} className="ghost" id="signIn">Sign In</button>
+                        <Link to='/login'><Button style={{borderRadius:8, width:'max-content'}} className="ghost" id="signIn">Sign In</Button></Link>
                     </div>
                 </div>
                 <div className="Singup col-lg-6 col-md-6">
@@ -118,7 +119,10 @@ class Register extends Component {
                         </form>
 
                     </div>
+
+
                 </div>
+                <Link to='/'><Button className="back">Go Back to Home Page</Button></Link>
             </div>
         );
     }

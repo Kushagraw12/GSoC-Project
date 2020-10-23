@@ -1,5 +1,7 @@
 import React from "react";
 import firebaseConfig from './Config';
+import { Link } from 'react-router-dom';
+import { Button } from 'react-bootstrap';
 
 import { useAuthState } from 'react-firebase-hooks/auth';
 
@@ -14,7 +16,7 @@ firebase.initializeApp(firebaseConfig);
 //firebase.analytics();
 
 const auth = firebase.auth();
-const firestore = firebase.firestore();
+//const firestore = firebase.firestore();
 
 
 
@@ -23,19 +25,18 @@ function Login() {
     const [user] = useAuthState(auth);
   
     return (
-      <div className="text-center head">
+      <div className="text-center head kk">
         <header>
           <h1 className='wel'>Welcome!</h1>
           <div className='so'>
             <SignOut />
           </div>
-          
         </header>
   
         <section>
           {user ? <Text /> : <SignIn />}
         </section>
-  
+        <Link to='/'><Button className="back">Go Back to Home Page</Button></Link>
       </div>
     );
   }
@@ -49,7 +50,7 @@ function SignIn() {
   
     return (
       <>
-        <button className="sign-in" onClick={signInWithGoogle}>Sign in with Google</button>
+        <Button className="sign-in" onClick={signInWithGoogle}>Sign in with Google</Button>
       </>
     )
   
@@ -59,7 +60,7 @@ function SignIn() {
 
 function SignOut() {
     return auth.currentUser && (
-      <button className="sign-out" onClick={() => auth.signOut()}>Sign Out</button>
+      <Button className="sign-out" onClick={() => auth.signOut()}>Sign Out</Button>
     )
 }
 

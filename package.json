@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "firebase": "^7.24.0"
+  },
+  "name": "gsoc"
+}

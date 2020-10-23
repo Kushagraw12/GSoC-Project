@@ -1,0 +1,33 @@
+.timeline{
+    margin-left: auto;
+    margin-right: auto;
+    width:600px;
+    height: auto;
+}
+@media only screen and (max-width:600px){
+    .timeline{
+        width : auto;
+    }
+}
+.css-srlkzl {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    padding-left: 0.5rem;
+    text-align: left;
+    color: #000;
+}
+
+.css-c1e5f8 {
+    font-size: 0.8rem;
+    font-weight: 600;
+    padding-left: 0.5rem;
+    width: 95%;
+    text-align: left;
+    color: #0f52ba;
+}
+
+.date {
+   
+    font-size: 1.2rem;
+}

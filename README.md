@@ -7,12 +7,12 @@ I have created a project in Firebase, we shall use that only.
 
 Steps to install and start Firebase locally: 
 -
-    * $ cd "Gsoc-Project Web/client"
-    * npm install
-    * npm i -g firebase
-    * npm i firebase-tools
-    * npm i react-firebase-hooks
-    * npm start
+     $ cd "Gsoc-Project Web/client"
+     npm install
+     npm i -g firebase
+     npm i firebase-tools
+     npm i react-firebase-hooks
+     npm start
 ---
 
 <b>Do Not Change any value in Config.js</b>

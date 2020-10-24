@@ -1,36 +1,22 @@
 import React, { Component } from "react";
-import { Tabs, Tab } from "react-bootstrap";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTimes } from "@fortawesome/free-solid-svg-icons";
 import Select from "react-select";
-
-const options = [
-	{ value: "chocolate", label: "Chocolate" },
-	{ value: "strawberry", label: "Strawberry" },
-	{ value: "vanilla", label: "Vanilla" },
-];
+import "./SAO.css";
 
 export default class skillsAndorg extends Component {
 	constructor(props) {
 		super(props);
 		this.handleChangePicker = this.handleChangePicker.bind(this);
 		this.state = {
-			selectedOptionOrg: null,
-			text: "",
 			tags: [],
 			selectedOption: null,
 		};
 	}
-	componentDidMount() {
-		console.log(this.props.canSubmit)
-	}
 	handleChangePicker = (selectedOption) => {
 		this.setState({ selectedOption });
-		console.log(`Option selected:`, selectedOption);
+		this.handleAddition(selectedOption.value);
 	};
-	onChange(e) {
-		this.setState({ [e.target.name]: e.target.value });
-	}
 
 	handleDelete(i) {
 		const { tags } = this.state;
@@ -40,26 +26,28 @@ export default class skillsAndorg extends Component {
 	}
 
 	handleAddition(tag) {
-		this.setState((state) => ({ tags: [...state.tags, tag] }));
+		let Tags = this.state.tags;
+		if (Tags.indexOf(tag) === -1) {
+			this.setState((state) => ({ tags: [...state.tags, tag] }));
+		}
+	}
+
+	componentDidUpdate(prevProps) {
+		console.log(this.props.canSubmit);
 	}
 	render() {
 		return (
 			<div>
-			<h4>{this.props.Heading}</h4>
-			{this.props.canSubmit.toString()}
-				<Select className="longInput" value={this.state.selectedOption} onChange={this.handleChangePicker} options={options} />
+				<h6>{this.props.Heading}</h6>
+				<Select className="longInput" value={this.state.selectedOption} onChange={this.handleChangePicker} options={this.props.options} />
 
 				<div
+					className="scrollList"
 					style={{
-						display: "flex",
-						height: "20vh",
-						backgroundColor: "white",
-						width: "35vw",
-						overflow: "scroll",
-						overflowX: "hidden",
+
 					}}
 				>
-					<div style={{ padding: 15 }}>
+					<div className="tagsBody" style={{ padding: 15 }}>
 						{this.state.tags.map((item, idx) => (
 							<h6
 								key={idx}

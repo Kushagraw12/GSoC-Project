@@ -50,12 +50,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4260afbc-ed5b-4879-b2f0-087ee806cc35" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/Components/DowpdownSelect/SAO.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/Router/HomeRoutes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Router/HomeRoutes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/auth/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Views/auth/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/auth/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Views/auth/Register.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/auth/register.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Views/auth/register.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/home.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Views/home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Components/DowpdownSelect/skillsAndorg.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Components/DowpdownSelect/skillsAndorg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Views/skillsForm.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Views/skillsForm.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/Views/skillsForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/Views/skillsForm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reducers/skillsAndOrgs.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/skillsAndOrgs.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,9 +75,11 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -90,6 +92,7 @@
       <updated>1594984092151</updated>
       <workItem from="1594984094412" duration="198000" />
       <workItem from="1603276057449" duration="287000" />
+      <workItem from="1603437554936" duration="6952000" />
     </task>
     <servers />
   </component>
@@ -106,5 +109,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="411" y="227" width="1177" height="732" key="SettingsEditor" timestamp="1603437828566">
+      <screen x="0" y="28" width="1920" height="1023" />
+    </state>
+    <state x="411" y="227" width="1177" height="732" key="SettingsEditor/0.28.1920.1023@0.28.1920.1023" timestamp="1603437828566" />
   </component>
 </project>

@@ -1,41 +1,97 @@
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #0cc863;
+    color: #fff;
+    background-color: #0cc863;
+}
+
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0;
+    list-style: none;
+    width: 80%;
+    margin: auto;
 }
 
 .nav-pills .nav-link {
-	border-radius: 0.25rem;
-	height: 50px;
-	align-items: center;
-	align-self: center;
-	display: flex;
-	justify-content: center;
+    border-radius: 0.25rem;
+    height: 50px;
+    align-items: center;
+    align-self: center;
+    display: flex;
+    justify-content: center;
 }
 
 .tabsBody {
-	margin: 20px 0px;
-	display: flex;
-	justify-content: center;
-	align-items: flex-start;
-	flex-direction: column;
-	background-color: #bdeded;
-	/* height: 50vh; */
-	padding: 20px;
-	padding-left: 60px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #bdeded;
+    border-radius: 5px;
+    padding: 40px 0;
+    padding-left: 60px;
 }
+
 .longInput {
-	width: 35vw;
+    width: 40vw;
 }
 
 .crossBtn {
-	margin-top: 4px;
-	border-radius: 20px;
-	border: 0px solid #5da2d5;
-	padding: 0;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-	transition: transform 80ms ease-in;
+    margin-top: 4px;
+    border-radius: 20px;
+    border: 0 solid #5da2d5;
+    padding: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
     background-color: transparent;
-    color:black;
+    color: black;
 }
+
+.crossBtn active {
+    border: 0px solid #5da2d5;
+}
+
+.form {
+    box-shadow: 10px 4px 4px 10px rgba(0, 0, 0, 0.37);
+    background: white;
+    border-radius: 3px;
+}
+
+.greenBack {
+    width: 47vw;
+    margin: auto;
+}
+
+.saoSubmit {
+    color: #fff;
+    background-color: #0cc863;
+    margin: auto;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 1500px) {
+    .greenBack {
+        width: 70vw;
+    }
+
+    .longInput {
+        width: 55vw;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .greenBack {
+        width: 100%;
+    }
+
+    .longInput {
+        width: 55vw;
+    }
+}
+
+

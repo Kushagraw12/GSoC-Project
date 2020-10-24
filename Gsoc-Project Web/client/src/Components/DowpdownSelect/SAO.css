@@ -1,0 +1,20 @@
+.scrollList::-webkit-scrollbar {
+    width: 0 !important
+}
+
+.scrollList {
+    display: flex;
+    height: 20vh;
+    background-color: white;
+    width: 40vw;
+    overflow: scroll;
+    overflow-x: hidden;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1500px) {
+    .scrollList {
+        width: 55vw;
+    }
+}

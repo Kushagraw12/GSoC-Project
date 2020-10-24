@@ -1,5 +1,4 @@
 import {SET_SKILLS, SET_ORGS} from "../actions/types";
-import isEmpty from "../utils/is-empty";
 
 const initialState = {
     skills: [],
@@ -11,8 +10,12 @@ export default function (state = initialState, action) {
         case SET_SKILLS:
             return {
                 ...state,
-                isAuthenticated: !isEmpty(action.payload),
-                user: action.payload
+                skills: action.payload
+            }
+        case SET_ORGS:
+            return {
+                ...state,
+                orgs: action.payload,
             }
         default:
             return state;

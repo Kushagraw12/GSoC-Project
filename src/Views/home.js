@@ -5,6 +5,8 @@ import {connect} from 'react-redux';
 import {logoutUser} from '../actions/authActions';
 import {Button} from 'react-bootstrap';
 
+import "./home.css";
+
 class Home extends Component {
     constructor(props) {
         super(props);
@@ -18,13 +20,16 @@ class Home extends Component {
 
         // console.log(newUser);
     }
+
     render() {
         return (
             <div>
-                <h1>Hello</h1>
-                <Link to="/register">Register</Link><br/>
-                <Link to="/login">Login</Link> <br />
-                <Button onClick={this.onSubmit}>Logout</Button>
+                <h1 className='wel'>Hey there!</h1>
+                <Link to="/register"><Button className='reg'>Register</Button></Link><br/>
+                <Link to="/login"><Button className='wg'>Login with Google</Button></Link> <br />
+                <Link to="/anon_login"><Button className='wog'>Login without Google</Button></Link> <br />
+                <Link to="/timeline"><Button className='tim'>View Timeline</Button></Link> <br />
+                {/*<Button onClick={this.onSubmit}>Logout</Button>*/}
             </div>
         );
     }

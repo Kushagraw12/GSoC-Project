@@ -13,21 +13,23 @@ import store from "./store";
 // check for token
 if (localStorage.jwtToken) {
 	// set Auth Token header auth
-	setAuthToken(localStorage.jwtToken);
-	// decode token and get user info and exp
-	const decoded = jwt_decode(localStorage.jwtToken);
-	// Set current user action
-	store.dispatch(setCurrentUser(decoded));
+	if (localStorage.jwtToken !== "undefined") {
+		setAuthToken(localStorage.jwtToken);
+		// decode token and get user info and exp
+		const decoded = jwt_decode(localStorage.jwtToken);
+		// Set current user action
+		store.dispatch(setCurrentUser(decoded));
 
-	// Check for expired token
-	const curretTime = Date.now() / 1000;
-	if (decoded.exp < curretTime) {
-		// Logout user
-		store.dispatch(logoutUser());
-		// Todo: Clear current profile
+		// Check for expired token
+		const curretTime = Date.now() / 1000;
+		if (decoded.exp < curretTime) {
+			// Logout user
+			store.dispatch(logoutUser());
+			// Todo: Clear current profile
 
-		// Redirect to login
-		window.location.href = "/login";
+			// Redirect to login
+			window.location.href = "/login";
+		}
 	}
 }
 

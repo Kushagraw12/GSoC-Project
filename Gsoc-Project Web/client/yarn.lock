@@ -1115,7 +1115,7 @@
     "@emotion/utils" "0.11.3"
     "@emotion/weak-memoize" "0.2.5"
 
-"@emotion/core@^10.0.27", "@emotion/core@^10.0.28", "@emotion/core@^10.0.35":
+"@emotion/core@^10.0.35":
   "integrity" "sha512-sH++vJCdk025fBlRZSAhkRlSUoqSqgCzYf5fMOmqqi3bM6how+sQpg3hkgJonj8GxXM4WbD7dRO+4tegDB9fUw=="
   "resolved" "https://registry.npmjs.org/@emotion/core/-/core-10.0.35.tgz"
   "version" "10.0.35"
@@ -1224,12 +1224,12 @@
     "@firebase/util" "0.3.2"
     "tslib" "^1.11.1"
 
-"@firebase/app-types@0.6.1", "@firebase/app-types@0.x":
+"@firebase/app-types@0.6.1":
   "integrity" "sha512-L/ZnJRAq7F++utfuoTKX4CLBG5YR7tFO3PLzG1/oXXKEezJ0kRL3CMRoueBEmTCzVb/6SIs2Qlaw++uDgi5Xyg=="
   "resolved" "https://registry.npmjs.org/@firebase/app-types/-/app-types-0.6.1.tgz"
   "version" "0.6.1"
 
-"@firebase/app@0.6.11", "@firebase/app@0.x":
+"@firebase/app@0.6.11":
   "integrity" "sha512-FH++PaoyTzfTAVuJ0gITNYEIcjT5G+D0671La27MU8Vvr6MTko+5YUZ4xS9QItyotSeRF4rMJ1KR7G8LSyySiA=="
   "resolved" "https://registry.npmjs.org/@firebase/app/-/app-0.6.11.tgz"
   "version" "0.6.11"
@@ -1419,7 +1419,7 @@
     "@firebase/util" "0.3.2"
     "tslib" "^1.11.1"
 
-"@firebase/util@0.3.2", "@firebase/util@0.x":
+"@firebase/util@0.3.2":
   "integrity" "sha512-Dqs00++c8rwKky6KCKLLY2T1qYO4Q+X5t+lF7DInXDNF4ae1Oau35bkD+OpJ9u7l1pEv7KHowP6CUKuySCOc8g=="
   "resolved" "https://registry.npmjs.org/@firebase/util/-/util-0.3.2.tgz"
   "version" "0.3.2"
@@ -9676,7 +9676,7 @@
     "loose-envify" "^1.4.0"
     "prop-types" "^15.6.2"
 
-"react@^16.13.1", "react@^16.8.0", "react@>=16.3.0":
+"react@^16.13.1":
   "integrity" "sha512-YMZQQq32xHLX0bz5Mnibv1/LHb3Sqzngu7xstSM+vrkE5Kzr9xE0yMByK5kMoTK30YVJE61WfbxIFFvfeDKT1w=="
   "resolved" "https://registry.npmjs.org/react/-/react-16.13.1.tgz"
   "version" "16.13.1"
@@ -11713,7 +11713,7 @@
     "source-list-map" "^2.0.0"
     "source-map" "~0.6.1"
 
-"webpack@^4.0.0", "webpack@^4.0.0 || ^5.0.0", "webpack@4.42.0":
+"webpack@4.42.0":
   "integrity" "sha512-EzJRHvwQyBiYrYqhyjW9AqM90dE4+s1/XtCfn7uWg6cS72zH+2VPFAlsnW0+W0cDi0XRjNKUMoJtpSi50+Ph6w=="
   "resolved" "https://registry.npmjs.org/webpack/-/webpack-4.42.0.tgz"
   "version" "4.42.0"
